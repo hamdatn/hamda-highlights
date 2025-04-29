@@ -3158,4 +3158,11 @@ input, select, textarea {
 	z-index: 1;
 	text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6); /* text clarity */
   }
-  
+ 
+  .row .col-4 {
+    transition: transform 0.3s ease;
+}
+
+.row .col-4:hover {
+    transform: translateY(-5px);
+}
